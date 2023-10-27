@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+.background{
+    margin:0px;
+background-image: url("aniket-deole-M6XC789HLe8-unsplash.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width:100vw;
+height:130vh;
+position:absolute;
+}
+.card{
+    width:90%;
+    max-width:470px;
+    background-image: linear-gradient( 109.6deg,  rgba(254, 253, 205, 0.245) 11.2%, rgba(163, 230, 255, 0.3) 91.1% );
+    color:white;
+    margin:100px auto 0;
+    border-radius: 20px;
+    padding:40px 35px;
+    text-align: center;
+    
+}
+.search{
+    width:100%;
+    display:flex;
+    direction:row;
+  align-items: center;
+  justify-content: center;
+    
+}
+.search input{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    color:#555;
+    padding:10px 25px;
+    height:60px;
+    border-radius:40px;
+    flex:1;
+    margin-right:16px;
+    font-size:18px;
+
+}
+.search button img{
+    width:25px;
+}
+.search button{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    border-radius:25%;
+    width: 60px;
+    height:60px;
+    cursor:pointer;
+}
+.weather-icon{
+    width:170px;
+    margin-top:30px;
+}
+.weather h1{
+    font-size:80px;
+    font-weight:400;
+    margin-top:-10px;
+}
+.weather h2{
+    font-size :45px;
+    font-weight:400;
+    margin-top:-10px;
+}
+.details{
+    display:flex;
+  
+    align-items:center;
+    justify-content:space-between;
+    padding:0 20px;
+    margin-top:50px;
+    font-size: 25px;
+
+}
+.col img{
+    width:40px;
+    margin-right:10px;
+}
+.weather{
+    display:none;
+}
+.error{
+    text-align: left;
+    margin-left:10px;
+    font-size:14px;
+    margin-top:10px;
+    display:none;
+}
